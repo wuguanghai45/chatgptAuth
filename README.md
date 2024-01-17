@@ -10,6 +10,7 @@
 docker-compose up -d
 ```
 
+### 获取token
 ```
 curl -X POST http://127.0.0.1:3010/get_chatgpt_access_token -d "username=username@mail.com&password=password"
 ```
